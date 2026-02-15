@@ -1,0 +1,4825 @@
+{
+  "metadata": {
+    "brand": "Inara Yachts",
+    "region": "UAE",
+    "generated_on": "2026-02-15T14:42:24.043197",
+    "architecture": "Custom Visual Studio Enterprise Hybrid",
+    "category": "Sales"
+  },
+  "routing_rules": {
+    "escalation_threshold": 35,
+    "auto_escalate_keywords": [
+      "urgent",
+      "tonight",
+      "proposal today"
+    ]
+  },
+  "lead_scoring_rules": {
+    "proposal": 20,
+    "corporate_event": 25,
+    "superyacht": 40,
+    "investment": 35
+  },
+  "faq_items": [
+    {
+      "id": "S-151",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_151",
+      "question": "Sample question 151 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 151",
+        "sales inquiry 151"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 151 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_151"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-152",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_152",
+      "question": "Sample question 152 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 152",
+        "sales inquiry 152"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 152 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_152"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-153",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_153",
+      "question": "Sample question 153 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 153",
+        "sales inquiry 153"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 153 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_153"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-154",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_154",
+      "question": "Sample question 154 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 154",
+        "sales inquiry 154"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 154 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_154"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-155",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_155",
+      "question": "Sample question 155 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 155",
+        "sales inquiry 155"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 155 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_155"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-156",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_156",
+      "question": "Sample question 156 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 156",
+        "sales inquiry 156"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 156 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_156"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-157",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_157",
+      "question": "Sample question 157 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 157",
+        "sales inquiry 157"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 157 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_157"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-158",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_158",
+      "question": "Sample question 158 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 158",
+        "sales inquiry 158"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 158 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_158"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-159",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_159",
+      "question": "Sample question 159 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 159",
+        "sales inquiry 159"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 159 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_159"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-160",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_160",
+      "question": "Sample question 160 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 160",
+        "sales inquiry 160"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 160 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_160"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-161",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_161",
+      "question": "Sample question 161 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 161",
+        "sales inquiry 161"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 161 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_161"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-162",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_162",
+      "question": "Sample question 162 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 162",
+        "sales inquiry 162"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 162 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_162"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-163",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_163",
+      "question": "Sample question 163 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 163",
+        "sales inquiry 163"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 163 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_163"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-164",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_164",
+      "question": "Sample question 164 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 164",
+        "sales inquiry 164"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 164 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_164"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-165",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_165",
+      "question": "Sample question 165 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 165",
+        "sales inquiry 165"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 165 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_165"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-166",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_166",
+      "question": "Sample question 166 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 166",
+        "sales inquiry 166"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 166 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_166"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-167",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_167",
+      "question": "Sample question 167 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 167",
+        "sales inquiry 167"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 167 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_167"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-168",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_168",
+      "question": "Sample question 168 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 168",
+        "sales inquiry 168"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 168 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_168"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-169",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_169",
+      "question": "Sample question 169 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 169",
+        "sales inquiry 169"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 169 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_169"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-170",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_170",
+      "question": "Sample question 170 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 170",
+        "sales inquiry 170"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 170 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_170"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-171",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_171",
+      "question": "Sample question 171 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 171",
+        "sales inquiry 171"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 171 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_171"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-172",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_172",
+      "question": "Sample question 172 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 172",
+        "sales inquiry 172"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 172 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_172"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-173",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_173",
+      "question": "Sample question 173 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 173",
+        "sales inquiry 173"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 173 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_173"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-174",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_174",
+      "question": "Sample question 174 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 174",
+        "sales inquiry 174"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 174 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_174"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-175",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_175",
+      "question": "Sample question 175 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 175",
+        "sales inquiry 175"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 175 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_175"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-176",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_176",
+      "question": "Sample question 176 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 176",
+        "sales inquiry 176"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 176 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_176"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-177",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_177",
+      "question": "Sample question 177 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 177",
+        "sales inquiry 177"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 177 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_177"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-178",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_178",
+      "question": "Sample question 178 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 178",
+        "sales inquiry 178"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 178 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_178"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-179",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_179",
+      "question": "Sample question 179 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 179",
+        "sales inquiry 179"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 179 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_179"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-180",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_180",
+      "question": "Sample question 180 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 180",
+        "sales inquiry 180"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 180 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_180"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-181",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_181",
+      "question": "Sample question 181 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 181",
+        "sales inquiry 181"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 181 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_181"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-182",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_182",
+      "question": "Sample question 182 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 182",
+        "sales inquiry 182"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 182 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_182"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-183",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_183",
+      "question": "Sample question 183 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 183",
+        "sales inquiry 183"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 183 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_183"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-184",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_184",
+      "question": "Sample question 184 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 184",
+        "sales inquiry 184"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 184 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_184"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-185",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_185",
+      "question": "Sample question 185 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 185",
+        "sales inquiry 185"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 185 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_185"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-186",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_186",
+      "question": "Sample question 186 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 186",
+        "sales inquiry 186"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 186 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_186"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-187",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_187",
+      "question": "Sample question 187 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 187",
+        "sales inquiry 187"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 187 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_187"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-188",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_188",
+      "question": "Sample question 188 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 188",
+        "sales inquiry 188"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 188 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_188"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-189",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_189",
+      "question": "Sample question 189 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 189",
+        "sales inquiry 189"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 189 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_189"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-190",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_190",
+      "question": "Sample question 190 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 190",
+        "sales inquiry 190"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 190 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_190"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-191",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_191",
+      "question": "Sample question 191 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 191",
+        "sales inquiry 191"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 191 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_191"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-192",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_192",
+      "question": "Sample question 192 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 192",
+        "sales inquiry 192"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 192 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_192"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-193",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_193",
+      "question": "Sample question 193 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 193",
+        "sales inquiry 193"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 193 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_193"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-194",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_194",
+      "question": "Sample question 194 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 194",
+        "sales inquiry 194"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 194 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_194"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-195",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_195",
+      "question": "Sample question 195 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 195",
+        "sales inquiry 195"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 195 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_195"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-196",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_196",
+      "question": "Sample question 196 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 196",
+        "sales inquiry 196"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 196 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_196"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-197",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_197",
+      "question": "Sample question 197 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 197",
+        "sales inquiry 197"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 197 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_197"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-198",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_198",
+      "question": "Sample question 198 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 198",
+        "sales inquiry 198"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 198 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_198"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-199",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_199",
+      "question": "Sample question 199 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 199",
+        "sales inquiry 199"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 199 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_199"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-200",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_200",
+      "question": "Sample question 200 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 200",
+        "sales inquiry 200"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 200 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_200"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-201",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_201",
+      "question": "Sample question 201 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 201",
+        "sales inquiry 201"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 201 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_201"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-202",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_202",
+      "question": "Sample question 202 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 202",
+        "sales inquiry 202"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 202 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_202"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-203",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_203",
+      "question": "Sample question 203 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 203",
+        "sales inquiry 203"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 203 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_203"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-204",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_204",
+      "question": "Sample question 204 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 204",
+        "sales inquiry 204"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 204 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_204"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-205",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_205",
+      "question": "Sample question 205 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 205",
+        "sales inquiry 205"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 205 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_205"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-206",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_206",
+      "question": "Sample question 206 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 206",
+        "sales inquiry 206"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 206 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_206"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-207",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_207",
+      "question": "Sample question 207 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 207",
+        "sales inquiry 207"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 207 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_207"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-208",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_208",
+      "question": "Sample question 208 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 208",
+        "sales inquiry 208"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 208 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_208"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-209",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_209",
+      "question": "Sample question 209 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 209",
+        "sales inquiry 209"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 209 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_209"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-210",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_210",
+      "question": "Sample question 210 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 210",
+        "sales inquiry 210"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 210 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_210"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-211",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_211",
+      "question": "Sample question 211 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 211",
+        "sales inquiry 211"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 211 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_211"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-212",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_212",
+      "question": "Sample question 212 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 212",
+        "sales inquiry 212"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 212 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_212"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-213",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_213",
+      "question": "Sample question 213 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 213",
+        "sales inquiry 213"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 213 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_213"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-214",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_214",
+      "question": "Sample question 214 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 214",
+        "sales inquiry 214"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 214 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_214"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-215",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_215",
+      "question": "Sample question 215 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 215",
+        "sales inquiry 215"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 215 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_215"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-216",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_216",
+      "question": "Sample question 216 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 216",
+        "sales inquiry 216"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 216 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_216"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-217",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_217",
+      "question": "Sample question 217 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 217",
+        "sales inquiry 217"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 217 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_217"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-218",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_218",
+      "question": "Sample question 218 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 218",
+        "sales inquiry 218"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 218 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_218"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-219",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_219",
+      "question": "Sample question 219 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 219",
+        "sales inquiry 219"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 219 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_219"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-220",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_220",
+      "question": "Sample question 220 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 220",
+        "sales inquiry 220"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 220 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_220"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-221",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_221",
+      "question": "Sample question 221 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 221",
+        "sales inquiry 221"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 221 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_221"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-222",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_222",
+      "question": "Sample question 222 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 222",
+        "sales inquiry 222"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 222 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_222"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-223",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_223",
+      "question": "Sample question 223 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 223",
+        "sales inquiry 223"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 223 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_223"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-224",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_224",
+      "question": "Sample question 224 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 224",
+        "sales inquiry 224"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 224 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_224"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-225",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_225",
+      "question": "Sample question 225 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 225",
+        "sales inquiry 225"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 225 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_225"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-226",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_226",
+      "question": "Sample question 226 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 226",
+        "sales inquiry 226"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 226 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_226"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-227",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_227",
+      "question": "Sample question 227 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 227",
+        "sales inquiry 227"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 227 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_227"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-228",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_228",
+      "question": "Sample question 228 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 228",
+        "sales inquiry 228"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 228 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_228"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-229",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_229",
+      "question": "Sample question 229 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 229",
+        "sales inquiry 229"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 229 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_229"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-230",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_230",
+      "question": "Sample question 230 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 230",
+        "sales inquiry 230"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 230 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_230"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-231",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_231",
+      "question": "Sample question 231 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 231",
+        "sales inquiry 231"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 231 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_231"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-232",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_232",
+      "question": "Sample question 232 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 232",
+        "sales inquiry 232"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 232 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_232"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-233",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_233",
+      "question": "Sample question 233 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 233",
+        "sales inquiry 233"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 233 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_233"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-234",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_234",
+      "question": "Sample question 234 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 234",
+        "sales inquiry 234"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 234 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_234"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-235",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_235",
+      "question": "Sample question 235 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 235",
+        "sales inquiry 235"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 235 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_235"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-236",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_236",
+      "question": "Sample question 236 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 236",
+        "sales inquiry 236"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 236 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_236"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-237",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_237",
+      "question": "Sample question 237 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 237",
+        "sales inquiry 237"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 237 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_237"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-238",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_238",
+      "question": "Sample question 238 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 238",
+        "sales inquiry 238"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 238 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_238"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-239",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_239",
+      "question": "Sample question 239 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 239",
+        "sales inquiry 239"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 239 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_239"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-240",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_240",
+      "question": "Sample question 240 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 240",
+        "sales inquiry 240"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 240 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_240"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-241",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_241",
+      "question": "Sample question 241 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 241",
+        "sales inquiry 241"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 241 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_241"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-242",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_242",
+      "question": "Sample question 242 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 242",
+        "sales inquiry 242"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 242 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_242"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-243",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_243",
+      "question": "Sample question 243 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 243",
+        "sales inquiry 243"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 243 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_243"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-244",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_244",
+      "question": "Sample question 244 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 244",
+        "sales inquiry 244"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 244 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_244"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-245",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_245",
+      "question": "Sample question 245 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 245",
+        "sales inquiry 245"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 245 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_245"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-246",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_246",
+      "question": "Sample question 246 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 246",
+        "sales inquiry 246"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 246 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_246"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-247",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_247",
+      "question": "Sample question 247 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 247",
+        "sales inquiry 247"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 247 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_247"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-248",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_248",
+      "question": "Sample question 248 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 248",
+        "sales inquiry 248"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 248 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_248"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-249",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_249",
+      "question": "Sample question 249 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 249",
+        "sales inquiry 249"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 249 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_249"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-250",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_250",
+      "question": "Sample question 250 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 250",
+        "sales inquiry 250"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 250 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_250"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-251",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_251",
+      "question": "Sample question 251 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 251",
+        "sales inquiry 251"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 251 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_251"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-252",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_252",
+      "question": "Sample question 252 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 252",
+        "sales inquiry 252"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 252 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_252"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-253",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_253",
+      "question": "Sample question 253 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 253",
+        "sales inquiry 253"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 253 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_253"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-254",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_254",
+      "question": "Sample question 254 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 254",
+        "sales inquiry 254"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 254 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_254"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-255",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_255",
+      "question": "Sample question 255 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 255",
+        "sales inquiry 255"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 255 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_255"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-256",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_256",
+      "question": "Sample question 256 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 256",
+        "sales inquiry 256"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 256 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_256"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-257",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_257",
+      "question": "Sample question 257 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 257",
+        "sales inquiry 257"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 257 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_257"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-258",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_258",
+      "question": "Sample question 258 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 258",
+        "sales inquiry 258"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 258 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_258"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-259",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_259",
+      "question": "Sample question 259 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 259",
+        "sales inquiry 259"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 259 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_259"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-260",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_260",
+      "question": "Sample question 260 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 260",
+        "sales inquiry 260"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 260 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_260"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-261",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_261",
+      "question": "Sample question 261 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 261",
+        "sales inquiry 261"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 261 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_261"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-262",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_262",
+      "question": "Sample question 262 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 262",
+        "sales inquiry 262"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 262 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_262"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-263",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_263",
+      "question": "Sample question 263 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 263",
+        "sales inquiry 263"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 263 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_263"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-264",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_264",
+      "question": "Sample question 264 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 264",
+        "sales inquiry 264"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 264 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_264"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-265",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_265",
+      "question": "Sample question 265 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 265",
+        "sales inquiry 265"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 265 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_265"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-266",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_266",
+      "question": "Sample question 266 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 266",
+        "sales inquiry 266"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 266 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_266"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-267",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_267",
+      "question": "Sample question 267 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 267",
+        "sales inquiry 267"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 267 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_267"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-268",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_268",
+      "question": "Sample question 268 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 268",
+        "sales inquiry 268"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 268 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_268"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-269",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_269",
+      "question": "Sample question 269 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 269",
+        "sales inquiry 269"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 269 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_269"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-270",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_270",
+      "question": "Sample question 270 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 270",
+        "sales inquiry 270"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 270 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_270"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-271",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_271",
+      "question": "Sample question 271 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 271",
+        "sales inquiry 271"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 271 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_271"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-272",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_272",
+      "question": "Sample question 272 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 272",
+        "sales inquiry 272"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 272 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_272"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-273",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_273",
+      "question": "Sample question 273 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 273",
+        "sales inquiry 273"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 273 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_273"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-274",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_274",
+      "question": "Sample question 274 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 274",
+        "sales inquiry 274"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 274 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_274"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-275",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_275",
+      "question": "Sample question 275 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 275",
+        "sales inquiry 275"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 275 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_275"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-276",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_276",
+      "question": "Sample question 276 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 276",
+        "sales inquiry 276"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 276 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_276"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-277",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_277",
+      "question": "Sample question 277 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 277",
+        "sales inquiry 277"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 277 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_277"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-278",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_278",
+      "question": "Sample question 278 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 278",
+        "sales inquiry 278"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 278 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_278"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-279",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_279",
+      "question": "Sample question 279 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 279",
+        "sales inquiry 279"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 279 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_279"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-280",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_280",
+      "question": "Sample question 280 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 280",
+        "sales inquiry 280"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 280 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_280"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-281",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_281",
+      "question": "Sample question 281 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 281",
+        "sales inquiry 281"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 281 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_281"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-282",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_282",
+      "question": "Sample question 282 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 282",
+        "sales inquiry 282"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 282 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_282"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-283",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_283",
+      "question": "Sample question 283 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 283",
+        "sales inquiry 283"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 283 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_283"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-284",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_284",
+      "question": "Sample question 284 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 284",
+        "sales inquiry 284"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 284 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_284"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-285",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_285",
+      "question": "Sample question 285 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 285",
+        "sales inquiry 285"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 285 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_285"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-286",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_286",
+      "question": "Sample question 286 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 286",
+        "sales inquiry 286"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 286 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_286"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-287",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_287",
+      "question": "Sample question 287 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 287",
+        "sales inquiry 287"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 287 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_287"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-288",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_288",
+      "question": "Sample question 288 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 288",
+        "sales inquiry 288"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 288 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_288"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-289",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_289",
+      "question": "Sample question 289 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 289",
+        "sales inquiry 289"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 289 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_289"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-290",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_290",
+      "question": "Sample question 290 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 290",
+        "sales inquiry 290"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 290 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_290"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-291",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_291",
+      "question": "Sample question 291 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 291",
+        "sales inquiry 291"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 291 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_291"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-292",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_292",
+      "question": "Sample question 292 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 292",
+        "sales inquiry 292"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 292 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_292"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-293",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_293",
+      "question": "Sample question 293 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 293",
+        "sales inquiry 293"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 293 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_293"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-294",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_294",
+      "question": "Sample question 294 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 294",
+        "sales inquiry 294"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 294 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_294"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-295",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_295",
+      "question": "Sample question 295 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 295",
+        "sales inquiry 295"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 295 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_295"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-296",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_296",
+      "question": "Sample question 296 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 296",
+        "sales inquiry 296"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 296 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_296"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-297",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_297",
+      "question": "Sample question 297 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 297",
+        "sales inquiry 297"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 297 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_297"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-298",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_298",
+      "question": "Sample question 298 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 298",
+        "sales inquiry 298"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 298 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_298"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-299",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_299",
+      "question": "Sample question 299 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 299",
+        "sales inquiry 299"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 299 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_299"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "S-300",
+      "category": "Sales",
+      "section": "Auto-Generated",
+      "intent": "sales_intent_300",
+      "question": "Sample question 300 for Sales?",
+      "trigger_keywords": [
+        "sales keyword 300",
+        "sales inquiry 300"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 300 under Sales.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "sales",
+        "faq_300"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "sales"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    }
+  ]
+}

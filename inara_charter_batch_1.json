@@ -1,0 +1,4825 @@
+{
+  "metadata": {
+    "brand": "Inara Yachts",
+    "region": "UAE",
+    "generated_on": "2026-02-15T14:42:23.969086",
+    "architecture": "Custom Visual Studio Enterprise Hybrid",
+    "category": "Charter"
+  },
+  "routing_rules": {
+    "escalation_threshold": 35,
+    "auto_escalate_keywords": [
+      "urgent",
+      "tonight",
+      "proposal today"
+    ]
+  },
+  "lead_scoring_rules": {
+    "proposal": 20,
+    "corporate_event": 25,
+    "superyacht": 40,
+    "investment": 35
+  },
+  "faq_items": [
+    {
+      "id": "C-001",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_1",
+      "question": "Sample question 1 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 1",
+        "charter inquiry 1"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 1 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_1"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-002",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_2",
+      "question": "Sample question 2 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 2",
+        "charter inquiry 2"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 2 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_2"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-003",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_3",
+      "question": "Sample question 3 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 3",
+        "charter inquiry 3"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 3 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_3"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-004",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_4",
+      "question": "Sample question 4 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 4",
+        "charter inquiry 4"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 4 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_4"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-005",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_5",
+      "question": "Sample question 5 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 5",
+        "charter inquiry 5"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 5 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_5"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-006",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_6",
+      "question": "Sample question 6 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 6",
+        "charter inquiry 6"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 6 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_6"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-007",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_7",
+      "question": "Sample question 7 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 7",
+        "charter inquiry 7"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 7 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_7"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-008",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_8",
+      "question": "Sample question 8 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 8",
+        "charter inquiry 8"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 8 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_8"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-009",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_9",
+      "question": "Sample question 9 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 9",
+        "charter inquiry 9"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 9 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_9"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-010",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_10",
+      "question": "Sample question 10 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 10",
+        "charter inquiry 10"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 10 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_10"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-011",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_11",
+      "question": "Sample question 11 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 11",
+        "charter inquiry 11"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 11 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_11"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-012",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_12",
+      "question": "Sample question 12 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 12",
+        "charter inquiry 12"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 12 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_12"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-013",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_13",
+      "question": "Sample question 13 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 13",
+        "charter inquiry 13"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 13 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_13"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-014",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_14",
+      "question": "Sample question 14 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 14",
+        "charter inquiry 14"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 14 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_14"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-015",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_15",
+      "question": "Sample question 15 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 15",
+        "charter inquiry 15"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 15 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_15"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-016",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_16",
+      "question": "Sample question 16 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 16",
+        "charter inquiry 16"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 16 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_16"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-017",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_17",
+      "question": "Sample question 17 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 17",
+        "charter inquiry 17"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 17 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_17"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-018",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_18",
+      "question": "Sample question 18 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 18",
+        "charter inquiry 18"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 18 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_18"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-019",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_19",
+      "question": "Sample question 19 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 19",
+        "charter inquiry 19"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 19 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_19"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-020",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_20",
+      "question": "Sample question 20 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 20",
+        "charter inquiry 20"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 20 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_20"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-021",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_21",
+      "question": "Sample question 21 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 21",
+        "charter inquiry 21"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 21 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_21"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-022",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_22",
+      "question": "Sample question 22 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 22",
+        "charter inquiry 22"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 22 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_22"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-023",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_23",
+      "question": "Sample question 23 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 23",
+        "charter inquiry 23"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 23 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_23"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-024",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_24",
+      "question": "Sample question 24 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 24",
+        "charter inquiry 24"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 24 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_24"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-025",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_25",
+      "question": "Sample question 25 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 25",
+        "charter inquiry 25"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 25 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_25"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-026",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_26",
+      "question": "Sample question 26 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 26",
+        "charter inquiry 26"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 26 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_26"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-027",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_27",
+      "question": "Sample question 27 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 27",
+        "charter inquiry 27"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 27 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_27"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-028",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_28",
+      "question": "Sample question 28 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 28",
+        "charter inquiry 28"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 28 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_28"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-029",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_29",
+      "question": "Sample question 29 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 29",
+        "charter inquiry 29"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 29 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_29"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-030",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_30",
+      "question": "Sample question 30 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 30",
+        "charter inquiry 30"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 30 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_30"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-031",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_31",
+      "question": "Sample question 31 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 31",
+        "charter inquiry 31"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 31 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_31"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-032",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_32",
+      "question": "Sample question 32 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 32",
+        "charter inquiry 32"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 32 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_32"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-033",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_33",
+      "question": "Sample question 33 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 33",
+        "charter inquiry 33"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 33 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_33"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-034",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_34",
+      "question": "Sample question 34 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 34",
+        "charter inquiry 34"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 34 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_34"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-035",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_35",
+      "question": "Sample question 35 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 35",
+        "charter inquiry 35"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 35 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_35"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-036",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_36",
+      "question": "Sample question 36 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 36",
+        "charter inquiry 36"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 36 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_36"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-037",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_37",
+      "question": "Sample question 37 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 37",
+        "charter inquiry 37"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 37 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_37"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-038",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_38",
+      "question": "Sample question 38 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 38",
+        "charter inquiry 38"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 38 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_38"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-039",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_39",
+      "question": "Sample question 39 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 39",
+        "charter inquiry 39"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 39 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_39"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-040",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_40",
+      "question": "Sample question 40 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 40",
+        "charter inquiry 40"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 40 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_40"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-041",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_41",
+      "question": "Sample question 41 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 41",
+        "charter inquiry 41"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 41 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_41"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-042",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_42",
+      "question": "Sample question 42 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 42",
+        "charter inquiry 42"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 42 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_42"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-043",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_43",
+      "question": "Sample question 43 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 43",
+        "charter inquiry 43"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 43 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_43"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-044",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_44",
+      "question": "Sample question 44 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 44",
+        "charter inquiry 44"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 44 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_44"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-045",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_45",
+      "question": "Sample question 45 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 45",
+        "charter inquiry 45"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 45 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_45"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-046",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_46",
+      "question": "Sample question 46 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 46",
+        "charter inquiry 46"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 46 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_46"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-047",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_47",
+      "question": "Sample question 47 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 47",
+        "charter inquiry 47"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 47 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_47"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-048",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_48",
+      "question": "Sample question 48 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 48",
+        "charter inquiry 48"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 48 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_48"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-049",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_49",
+      "question": "Sample question 49 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 49",
+        "charter inquiry 49"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 49 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_49"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-050",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_50",
+      "question": "Sample question 50 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 50",
+        "charter inquiry 50"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 50 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_50"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-051",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_51",
+      "question": "Sample question 51 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 51",
+        "charter inquiry 51"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 51 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_51"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-052",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_52",
+      "question": "Sample question 52 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 52",
+        "charter inquiry 52"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 52 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_52"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-053",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_53",
+      "question": "Sample question 53 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 53",
+        "charter inquiry 53"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 53 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_53"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-054",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_54",
+      "question": "Sample question 54 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 54",
+        "charter inquiry 54"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 54 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_54"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-055",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_55",
+      "question": "Sample question 55 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 55",
+        "charter inquiry 55"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 55 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_55"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-056",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_56",
+      "question": "Sample question 56 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 56",
+        "charter inquiry 56"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 56 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_56"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-057",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_57",
+      "question": "Sample question 57 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 57",
+        "charter inquiry 57"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 57 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_57"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-058",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_58",
+      "question": "Sample question 58 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 58",
+        "charter inquiry 58"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 58 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_58"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-059",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_59",
+      "question": "Sample question 59 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 59",
+        "charter inquiry 59"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 59 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_59"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-060",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_60",
+      "question": "Sample question 60 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 60",
+        "charter inquiry 60"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 60 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_60"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-061",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_61",
+      "question": "Sample question 61 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 61",
+        "charter inquiry 61"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 61 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_61"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-062",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_62",
+      "question": "Sample question 62 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 62",
+        "charter inquiry 62"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 62 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_62"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-063",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_63",
+      "question": "Sample question 63 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 63",
+        "charter inquiry 63"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 63 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_63"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-064",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_64",
+      "question": "Sample question 64 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 64",
+        "charter inquiry 64"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 64 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_64"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-065",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_65",
+      "question": "Sample question 65 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 65",
+        "charter inquiry 65"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 65 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_65"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-066",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_66",
+      "question": "Sample question 66 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 66",
+        "charter inquiry 66"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 66 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_66"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-067",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_67",
+      "question": "Sample question 67 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 67",
+        "charter inquiry 67"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 67 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_67"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-068",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_68",
+      "question": "Sample question 68 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 68",
+        "charter inquiry 68"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 68 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_68"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-069",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_69",
+      "question": "Sample question 69 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 69",
+        "charter inquiry 69"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 69 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_69"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-070",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_70",
+      "question": "Sample question 70 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 70",
+        "charter inquiry 70"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 70 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_70"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-071",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_71",
+      "question": "Sample question 71 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 71",
+        "charter inquiry 71"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 71 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_71"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-072",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_72",
+      "question": "Sample question 72 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 72",
+        "charter inquiry 72"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 72 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_72"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-073",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_73",
+      "question": "Sample question 73 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 73",
+        "charter inquiry 73"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 73 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_73"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-074",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_74",
+      "question": "Sample question 74 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 74",
+        "charter inquiry 74"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 74 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_74"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-075",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_75",
+      "question": "Sample question 75 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 75",
+        "charter inquiry 75"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 75 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_75"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-076",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_76",
+      "question": "Sample question 76 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 76",
+        "charter inquiry 76"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 76 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_76"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-077",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_77",
+      "question": "Sample question 77 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 77",
+        "charter inquiry 77"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 77 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_77"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-078",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_78",
+      "question": "Sample question 78 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 78",
+        "charter inquiry 78"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 78 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_78"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-079",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_79",
+      "question": "Sample question 79 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 79",
+        "charter inquiry 79"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 79 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_79"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-080",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_80",
+      "question": "Sample question 80 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 80",
+        "charter inquiry 80"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 80 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_80"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-081",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_81",
+      "question": "Sample question 81 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 81",
+        "charter inquiry 81"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 81 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_81"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-082",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_82",
+      "question": "Sample question 82 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 82",
+        "charter inquiry 82"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 82 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_82"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-083",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_83",
+      "question": "Sample question 83 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 83",
+        "charter inquiry 83"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 83 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_83"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-084",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_84",
+      "question": "Sample question 84 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 84",
+        "charter inquiry 84"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 84 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_84"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-085",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_85",
+      "question": "Sample question 85 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 85",
+        "charter inquiry 85"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 85 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_85"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-086",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_86",
+      "question": "Sample question 86 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 86",
+        "charter inquiry 86"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 86 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_86"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-087",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_87",
+      "question": "Sample question 87 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 87",
+        "charter inquiry 87"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 87 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_87"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-088",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_88",
+      "question": "Sample question 88 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 88",
+        "charter inquiry 88"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 88 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_88"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-089",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_89",
+      "question": "Sample question 89 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 89",
+        "charter inquiry 89"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 89 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_89"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-090",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_90",
+      "question": "Sample question 90 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 90",
+        "charter inquiry 90"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 90 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_90"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-091",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_91",
+      "question": "Sample question 91 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 91",
+        "charter inquiry 91"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 91 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_91"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-092",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_92",
+      "question": "Sample question 92 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 92",
+        "charter inquiry 92"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 92 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_92"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-093",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_93",
+      "question": "Sample question 93 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 93",
+        "charter inquiry 93"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 93 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_93"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-094",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_94",
+      "question": "Sample question 94 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 94",
+        "charter inquiry 94"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 94 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_94"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-095",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_95",
+      "question": "Sample question 95 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 95",
+        "charter inquiry 95"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 95 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_95"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-096",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_96",
+      "question": "Sample question 96 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 96",
+        "charter inquiry 96"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 96 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_96"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-097",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_97",
+      "question": "Sample question 97 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 97",
+        "charter inquiry 97"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 97 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_97"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-098",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_98",
+      "question": "Sample question 98 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 98",
+        "charter inquiry 98"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 98 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_98"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-099",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_99",
+      "question": "Sample question 99 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 99",
+        "charter inquiry 99"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 99 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_99"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-100",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_100",
+      "question": "Sample question 100 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 100",
+        "charter inquiry 100"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 100 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_100"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-101",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_101",
+      "question": "Sample question 101 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 101",
+        "charter inquiry 101"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 101 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_101"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-102",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_102",
+      "question": "Sample question 102 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 102",
+        "charter inquiry 102"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 102 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_102"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-103",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_103",
+      "question": "Sample question 103 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 103",
+        "charter inquiry 103"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 103 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_103"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-104",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_104",
+      "question": "Sample question 104 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 104",
+        "charter inquiry 104"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 104 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_104"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-105",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_105",
+      "question": "Sample question 105 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 105",
+        "charter inquiry 105"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 105 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_105"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-106",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_106",
+      "question": "Sample question 106 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 106",
+        "charter inquiry 106"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 106 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_106"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-107",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_107",
+      "question": "Sample question 107 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 107",
+        "charter inquiry 107"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 107 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_107"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-108",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_108",
+      "question": "Sample question 108 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 108",
+        "charter inquiry 108"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 108 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_108"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-109",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_109",
+      "question": "Sample question 109 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 109",
+        "charter inquiry 109"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 109 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_109"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-110",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_110",
+      "question": "Sample question 110 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 110",
+        "charter inquiry 110"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 110 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_110"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-111",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_111",
+      "question": "Sample question 111 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 111",
+        "charter inquiry 111"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 111 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_111"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-112",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_112",
+      "question": "Sample question 112 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 112",
+        "charter inquiry 112"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 112 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_112"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-113",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_113",
+      "question": "Sample question 113 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 113",
+        "charter inquiry 113"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 113 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_113"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-114",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_114",
+      "question": "Sample question 114 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 114",
+        "charter inquiry 114"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 114 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_114"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-115",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_115",
+      "question": "Sample question 115 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 115",
+        "charter inquiry 115"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 115 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_115"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-116",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_116",
+      "question": "Sample question 116 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 116",
+        "charter inquiry 116"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 116 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_116"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-117",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_117",
+      "question": "Sample question 117 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 117",
+        "charter inquiry 117"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 117 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_117"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-118",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_118",
+      "question": "Sample question 118 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 118",
+        "charter inquiry 118"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 118 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_118"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-119",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_119",
+      "question": "Sample question 119 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 119",
+        "charter inquiry 119"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 119 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_119"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-120",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_120",
+      "question": "Sample question 120 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 120",
+        "charter inquiry 120"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 120 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_120"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-121",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_121",
+      "question": "Sample question 121 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 121",
+        "charter inquiry 121"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 121 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_121"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-122",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_122",
+      "question": "Sample question 122 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 122",
+        "charter inquiry 122"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 122 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_122"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-123",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_123",
+      "question": "Sample question 123 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 123",
+        "charter inquiry 123"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 123 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_123"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-124",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_124",
+      "question": "Sample question 124 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 124",
+        "charter inquiry 124"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 124 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_124"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-125",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_125",
+      "question": "Sample question 125 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 125",
+        "charter inquiry 125"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 125 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_125"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-126",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_126",
+      "question": "Sample question 126 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 126",
+        "charter inquiry 126"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 126 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_126"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-127",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_127",
+      "question": "Sample question 127 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 127",
+        "charter inquiry 127"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 127 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_127"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-128",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_128",
+      "question": "Sample question 128 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 128",
+        "charter inquiry 128"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 128 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_128"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-129",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_129",
+      "question": "Sample question 129 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 129",
+        "charter inquiry 129"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 129 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_129"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-130",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_130",
+      "question": "Sample question 130 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 130",
+        "charter inquiry 130"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 130 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_130"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-131",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_131",
+      "question": "Sample question 131 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 131",
+        "charter inquiry 131"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 131 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_131"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-132",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_132",
+      "question": "Sample question 132 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 132",
+        "charter inquiry 132"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 132 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_132"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-133",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_133",
+      "question": "Sample question 133 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 133",
+        "charter inquiry 133"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 133 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_133"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-134",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_134",
+      "question": "Sample question 134 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 134",
+        "charter inquiry 134"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 134 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_134"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-135",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_135",
+      "question": "Sample question 135 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 135",
+        "charter inquiry 135"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 135 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_135"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-136",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_136",
+      "question": "Sample question 136 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 136",
+        "charter inquiry 136"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 136 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_136"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-137",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_137",
+      "question": "Sample question 137 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 137",
+        "charter inquiry 137"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 137 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_137"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-138",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_138",
+      "question": "Sample question 138 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 138",
+        "charter inquiry 138"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 138 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_138"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-139",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_139",
+      "question": "Sample question 139 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 139",
+        "charter inquiry 139"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 139 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_139"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-140",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_140",
+      "question": "Sample question 140 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 140",
+        "charter inquiry 140"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 140 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_140"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-141",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_141",
+      "question": "Sample question 141 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 141",
+        "charter inquiry 141"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 141 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_141"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-142",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_142",
+      "question": "Sample question 142 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 142",
+        "charter inquiry 142"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 142 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_142"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-143",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_143",
+      "question": "Sample question 143 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 143",
+        "charter inquiry 143"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 143 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_143"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-144",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_144",
+      "question": "Sample question 144 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 144",
+        "charter inquiry 144"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 144 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_144"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-145",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_145",
+      "question": "Sample question 145 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 145",
+        "charter inquiry 145"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 145 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_145"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-146",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_146",
+      "question": "Sample question 146 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 146",
+        "charter inquiry 146"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 146 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_146"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-147",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_147",
+      "question": "Sample question 147 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 147",
+        "charter inquiry 147"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 147 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_147"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-148",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_148",
+      "question": "Sample question 148 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 148",
+        "charter inquiry 148"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 148 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_148"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-149",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_149",
+      "question": "Sample question 149 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 149",
+        "charter inquiry 149"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 149 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_149"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    },
+    {
+      "id": "C-150",
+      "category": "Charter",
+      "section": "Auto-Generated",
+      "intent": "charter_intent_150",
+      "question": "Sample question 150 for Charter?",
+      "trigger_keywords": [
+        "charter keyword 150",
+        "charter inquiry 150"
+      ],
+      "answer": "This is a structured enterprise answer template for FAQ 150 under Charter.",
+      "upsell_prompt": "Would you like to explore a premium curated option?",
+      "escalation_required": false,
+      "lead_score": 10,
+      "channel_behavior": {
+        "website": "detailed",
+        "whatsapp": "concise",
+        "instagram": "short"
+      },
+      "crm_tags": [
+        "charter",
+        "faq_150"
+      ],
+      "analytics_tags": [
+        "inquiry",
+        "charter"
+      ],
+      "follow_up_sequence": [
+        "6_hour_followup",
+        "24_hour_followup"
+      ]
+    }
+  ]
+}
