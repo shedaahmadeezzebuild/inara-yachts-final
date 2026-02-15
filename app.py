@@ -279,8 +279,26 @@ with st.sidebar:
     st.markdown("")
     st.markdown("---")
     
-    # Knowledge Base Stats
-    st.markdown("<h3 style='color: white;'>Knowledge Base</h3>", unsafe_allow_html=True)
+    # UAE Destinations Section
+    st.markdown("<h3 style='color: white;'>Featured Destinations</h3>", unsafe_allow_html=True)
+    st.markdown("""
+    <div style='background: rgba(255,255,255,0.08); padding: 12px; border-radius: 8px; border-left: 3px solid #10b981;'>
+        <p style='color: #e0f2fe; font-size: 13px; margin: 0;'><b>UAE Destinations</b></p>
+        <p style='color: #e0f2fe; font-size: 11px; margin: 5px 0 0 0;'>
+            Dubai • Abu Dhabi<br>
+            Ras Al Khaimah • Fujairah<br>
+            Umm Al Quwain
+        </p>
+        <p style='color: #e0f2fe; font-size: 11px; margin: 8px 0 0 0;'><b>International</b></p>
+        <p style='color: #e0f2fe; font-size: 10px; margin: 3px 0 0 0;'>
+            Mediterranean • Caribbean<br>
+            Asia-Pacific • Oman & Bahrain
+        </p>
+    </div>
+    """, unsafe_allow_html=True)
+    
+    st.markdown("")
+    st.markdown("---")
     col_kb1, col_kb2 = st.columns(2)
     with col_kb1:
         st.metric("Charter FAQs", len(knowledge_base["charters"]), delta="Live")
@@ -304,8 +322,8 @@ with main_col2:
     st.markdown("""
     <div style='padding: 20px 0 0 20px;'>
         <h1 style='margin: 0; color: #1e3a8a; font-size: 36px;'>Welcome to Inara Yachts</h1>
-        <p style='margin: 8px 0 0 0; color: #0ea5e9; font-size: 16px; font-weight: 600;'>Your Premier Yacht Charter & Sales Partner</p>
-        <p style='margin: 8px 0 0 0; color: #64748b; font-size: 13px;'>Powered by AI • Enterprise-Grade Service</p>
+        <p style='margin: 8px 0 0 0; color: #0ea5e9; font-size: 16px; font-weight: 600;'>Your Premier Yacht Charter & Sales Partner - Based in UAE</p>
+        <p style='margin: 8px 0 0 0; color: #64748b; font-size: 13px;'>Luxury Charters in Dubai, Abu Dhabi & Worldwide • Powered by AI • Enterprise-Grade Service</p>
     </div>
     """, unsafe_allow_html=True)
 st.markdown("")
@@ -324,28 +342,48 @@ st.markdown("")
 
 # System prompt based on mode
 system_prompts = {
-    "General Inquiry": """You are a professional concierge for Inara Yachts, a luxury yacht charter and sales company. 
+    "General Inquiry": """You are a professional concierge for Inara Yachts, a luxury yacht charter and sales company based in UAE. 
 You provide information about our services, fleet, and answer general inquiries about yachting experiences. 
-Be welcoming, professional, and knowledgeable about luxury yacht services.""",
+Be welcoming, professional, and knowledgeable about luxury yacht services and UAE destinations.
+Featured destinations: Dubai, Abu Dhabi, Ras Al Khaimah, Fujairah, and worldwide charter options.""",
     
     "Charter Booking": """You are a yacht charter specialist for Inara Yachts. 
 Help clients book luxury yacht charters by understanding their dates, location preferences, group size, budget, and specific requirements.
-Provide detailed information about available vessels, itineraries, and pricing.
-Always confirm booking details and explain the next steps in the reservation process.""",
+
+Featured Destinations:
+UAE DESTINATIONS (Primary):
+- Dubai: Luxurious coastline, Palm Jumeirah, Dubai Marina, World Islands, world-class beaches
+- Abu Dhabi: Pristine waters, Saadiyat Island, mangrove forests, cultural experiences
+- Ras Al Khaimah: Rugged mountains, pristine beaches, Al Qasimi heritage, adventure activities
+- Fujairah: Untouched beaches, Dibba Rock diving, mountainous landscape, secluded anchoring
+- Umm Al Quwain: Sheltered lagoons, wildlife viewing, peaceful cruising
+
+INTERNATIONAL DESTINATIONS:
+- Mediterranean: French Riviera, Greek Islands, Italian Coast, Croatian Adriatic, Spanish Ibiza
+- Caribbean: St. Barts, Virgin Islands, Grenadines, Turks & Caicos
+- Asia-Pacific: Maldives, Thailand, Indonesia, French Polynesia
+- Arabian Gulf: Muscat (Oman), Bahrain, Qatar
+
+Provide detailed information about available vessels, itineraries, and pricing tailored to chosen destinations.
+Always confirm booking details and explain the next steps in the reservation process.
+Highlight UAE's unique advantages: luxury infrastructure, year-round climate, duty-free shopping, diverse culture.""",
     
     "Yacht Sales": """You are a yacht sales consultant for Inara Yachts with expertise in luxury yacht brokerage.
 Help buyers find the perfect yacht that matches their needs, budget, and lifestyle.
 Discuss yacht specifications, features, prices, financing options, and guide them through the purchase process.
-Highlight Inara Yachts' unique value proposition and after-sales services.""",
+Highlight Inara Yachts' unique value proposition and after-sales services for UAE-based and international clients.""",
     
     "Fleet Information": """You are a fleet specialist for Inara Yachts.
 Provide detailed information about our yacht fleet including specifications, features, capacity, amenities, and availability.
-Answer questions about different yacht types, sizes, and their ideal use cases.
-Create comprehensive fleet information based on typical luxury yacht offerings.""",
+Highlight our presence in UAE destinations: Dubai, Abu Dhabi, Ras Al Khaimah, and Fujairah.
+Answer questions about different yacht types, sizes, and their ideal use cases for both UAE and international waters.
+Create comprehensive fleet information based on typical luxury yacht offerings with local expertise.""",
     
     "Contact & Support": """You are a customer support specialist for Inara Yachts.
 Help clients with inquiries about contact information, office locations, support services, and general assistance.
-Provide information about booking modifications, cancellations, and customer service channels.""",
+Our main locations: Dubai, Abu Dhabi, and other UAE emirates.
+Provide information about booking modifications, cancellations, and customer service channels.
+Offer support for both regional and international yacht charter customers.""",
 }
 
 def call_mistral_api(user_message):
