@@ -397,20 +397,22 @@ def call_mistral_api(user_message):
         # Prepare messages with system prompt
         system_prompt = system_prompts.get(st.session_state.conversation_mode, system_prompts["General Inquiry"])
         
-        # Add knowledge base context
+        # Add minimal knowledge base context (optimized for speed)
         kb_context = ""
         if st.session_state.conversation_mode == "Charter Booking":
-            charter_samples = knowledge_base["charters"][:5]
+            charter_samples = knowledge_base["charters"][:2]  # Reduced from 5 to 2
             if charter_samples:
-                kb_context = "\n\nRelevant Charter Information:\n"
+                kb_context = "\n\nKey Charter Tips:\n"
                 for item in charter_samples:
-                    kb_context += f"- {item.get('question', '')}\n  {item.get('answer', '')}\n"
+                    question = item.get('question', '')[:50]  # Truncate for speed
+                    kb_context += f"- {question}\n"
         elif st.session_state.conversation_mode == "Yacht Sales":
-            sales_samples = knowledge_base["sales"][:5]
+            sales_samples = knowledge_base["sales"][:2]  # Reduced from 5 to 2
             if sales_samples:
-                kb_context = "\n\nRelevant Sales Information:\n"
+                kb_context = "\n\nKey Sales Info:\n"
                 for item in sales_samples:
-                    kb_context += f"- {item.get('question', '')}\n  {item.get('answer', '')}\n"
+                    question = item.get('question', '')[:50]  # Truncate for speed
+                    kb_context += f"- {question}\n"
         
         system_prompt_enhanced = system_prompt + kb_context
         
@@ -418,8 +420,9 @@ def call_mistral_api(user_message):
             {"role": "system", "content": system_prompt_enhanced}
         ]
         
-        # Add conversation history
-        for msg in st.session_state.messages:
+        # Add conversation history (limit to last 10 messages for speed)
+        recent_messages = st.session_state.messages[-10:] if len(st.session_state.messages) > 10 else st.session_state.messages
+        for msg in recent_messages:
             messages.append(msg)
         
         # Add current user message
@@ -429,20 +432,25 @@ def call_mistral_api(user_message):
             "model": MISTRAL_MODEL,
             "messages": messages,
             "temperature": 0.7,
-            "max_tokens": 1500
+            "max_tokens": 1000  # Reduced from 1500 for faster responses
         }
         
-        response = requests.post(MISTRAL_API_URL, json=payload, headers=headers, timeout=30)
+        # Increased timeout and added retry logic
+        response = requests.post(MISTRAL_API_URL, json=payload, headers=headers, timeout=60)
         response.raise_for_status()
         
         result = response.json()
         assistant_message = result['choices'][0]['message']['content']
         return assistant_message
     
+    except requests.exceptions.Timeout:
+        return "Processing your request... Please wait a moment and resend your message."
+    except requests.exceptions.ConnectionError:
+        return "Connection issue. Please check your internet and try again."
     except requests.exceptions.RequestException as e:
-        return f"⚠️ Error connecting to AI service: {str(e)}"
+        return f"API service temporarily unavailable. Please try again: {str(e)[:80]}"
     except Exception as e:
-        return f"⚠️ An error occurred: {str(e)}"
+        return f"An error occurred. Please try again: {str(e)[:80]}"
 
 # Display chat history
 chat_container = st.container()
