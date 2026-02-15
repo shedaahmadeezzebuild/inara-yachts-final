@@ -328,6 +328,51 @@ with main_col2:
     """, unsafe_allow_html=True)
 st.markdown("")
 
+# Information Blocks Section
+st.markdown("""
+<div style='background: linear-gradient(135deg, rgba(14, 165, 233, 0.08) 0%, rgba(59, 130, 246, 0.08) 100%); padding: 25px; border-radius: 12px; border: 1px solid rgba(14, 165, 233, 0.2); margin-bottom: 25px;'>
+    <h2 style='color: #1e3a8a; margin-top: 0; margin-bottom: 20px; font-size: 24px;'>Why Charter a Yacht in Dubai with Inara?</h2>
+    <div style='display: grid; grid-template-columns: 1fr 1fr; gap: 15px;'>
+        <div style='color: #0f172a; font-size: 14px; line-height: 1.8;'>
+            <p style='margin: 0 0 12px 0;'><b style='color: #10b981;'>✓ Exclusive Fleet</b> – From sleek day cruisers to opulent superyachts, we have vessels for every occasion.</p>
+            <p style='margin: 0 0 12px 0;'><b style='color: #10b981;'>✓ Bespoke Experiences</b> – Customize your itinerary: Palm Jumeirah, Burj Al Arab, Dubai Marina, or the open sea.</p>
+        </div>
+        <div style='color: #0f172a; font-size: 14px; line-height: 1.8;'>
+            <p style='margin: 0 0 12px 0;'><b style='color: #10b981;'>✓ Luxury Amenities</b> – Enjoy gourmet catering, water toys (jet skis, paddleboards), and professional crew service.</p>
+            <p style='margin: 0 0 12px 0;'><b style='color: #10b981;'>✓ Seamless Service</b> – Our concierge team handles every detail, from permits to personalized requests.</p>
+        </div>
+    </div>
+</div>
+""", unsafe_allow_html=True)
+
+st.markdown("""
+<div style='background: linear-gradient(135deg, rgba(15, 23, 42, 0.03) 0%, rgba(14, 165, 233, 0.05) 100%); padding: 25px; border-radius: 12px; border: 1px solid rgba(14, 165, 233, 0.2); margin-bottom: 25px;'>
+    <h2 style='color: #1e3a8a; margin-top: 0; margin-bottom: 20px; font-size: 24px;'>Popular Dubai Yacht Charter Experiences</h2>
+    <div style='display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 20px;'>
+        <div style='background: white; padding: 15px; border-radius: 10px; border-left: 4px solid #0ea5e9; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);'>
+            <p style='margin: 0 0 8px 0; font-weight: 600; color: #1e3a8a; font-size: 15px;'>🌅 Sunset Cruise</p>
+            <p style='margin: 0; color: #64748b; font-size: 13px;'>Sip champagne as the skyline glows at dusk.</p>
+        </div>
+        <div style='background: white; padding: 15px; border-radius: 10px; border-left: 4px solid #0ea5e9; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);'>
+            <p style='margin: 0 0 8px 0; font-weight: 600; color: #1e3a8a; font-size: 15px;'>🎉 Private Parties & Events</p>
+            <p style='margin: 0; color: #64748b; font-size: 13px;'>Birthdays, proposals, or corporate gatherings with a wow factor.</p>
+        </div>
+        <div style='background: white; padding: 15px; border-radius: 10px; border-left: 4px solid #0ea5e9; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);'>
+            <p style='margin: 0 0 8px 0; font-weight: 600; color: #1e3a8a; font-size: 15px;'>🐬 Dolphin Spotting</p>
+            <p style='margin: 0; color: #64748b; font-size: 13px;'>Cruise to The World Islands or Jumeirah Beach for wildlife encounters.</p>
+        </div>
+        <div style='background: white; padding: 15px; border-radius: 10px; border-left: 4px solid #0ea5e9; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);'>
+            <p style='margin: 0 0 8px 0; font-weight: 600; color: #1e3a8a; font-size: 15px;'>🍽️ Gourmet Dining</p>
+            <p style='margin: 0; color: #64748b; font-size: 13px;'>Onboard chefs prepare exquisite meals tailored to your taste.</p>
+        </div>
+        <div style='background: white; padding: 15px; border-radius: 10px; border-left: 4px solid #0ea5e9; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);'>
+            <p style='margin: 0 0 8px 0; font-weight: 600; color: #1e3a8a; font-size: 15px;'>⚓ Adventure Charters</p>
+            <p style='margin: 0; color: #64748b; font-size: 13px;'>Jet skiing, snorkeling, or fishing in pristine waters.</p>
+        </div>
+    </div>
+</div>
+""", unsafe_allow_html=True)
+
 # Display mode
 st.markdown(f"""
 <div style='display: flex; align-items: center; justify-content: space-between; background: linear-gradient(90deg, rgba(14, 165, 233, 0.1) 0%, rgba(59, 130, 246, 0.1) 100%); padding: 15px 20px; border-radius: 12px; border: 1px solid rgba(14, 165, 233, 0.2); margin-bottom: 20px;'>
