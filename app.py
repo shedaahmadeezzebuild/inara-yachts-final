@@ -297,12 +297,12 @@ with st.sidebar:
         st.rerun()
 
 # Main content header
-main_col1, main_col2 = st.columns([0.15, 0.85], vertical_alignment="center", gap="medium")
+main_col1, main_col2 = st.columns([0.15, 0.85])
 with main_col1:
     st.image("header_logo.jpg", width=100)
 with main_col2:
     st.markdown("""
-    <div>
+    <div style='padding: 20px 0 0 20px;'>
         <h1 style='margin: 0; color: #1e3a8a; font-size: 36px;'>Welcome to Inara Yachts</h1>
         <p style='margin: 8px 0 0 0; color: #0ea5e9; font-size: 16px; font-weight: 600;'>Your Premier Yacht Charter & Sales Partner</p>
         <p style='margin: 8px 0 0 0; color: #64748b; font-size: 13px;'>Powered by AI • Enterprise-Grade Service</p>
@@ -421,7 +421,7 @@ with chat_container:
 # Chat input
 st.markdown("<div style='margin-top: 30px;'></div>", unsafe_allow_html=True)
 with st.form(key="chat_form", clear_on_submit=True):
-    col1, col2 = st.columns([0.85, 0.15], gap="medium")
+    col1, col2 = st.columns([0.85, 0.15])
     with col1:
         user_input = st.text_input(
             "Your message:",
